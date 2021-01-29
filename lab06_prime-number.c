@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 
 int main() {
 	
@@ -10,33 +8,29 @@ int main() {
     scanf("%d", &n);
 
     for (i = 2; i < n; ++i) 
-	{
-
-        // situatipn for if it is prime or not
-        if (n % i == 0)
-		{
-            m = 1;
-            break;
-        }
+    {
+	    // situation for if it is prime or not
+	    if (n % i == 0)
+	    {
+		m = 1;
+		break;
+	    }
     }
 
     if (n == 1) 
-	{
+    {
         printf("1 is not a prime number");
     }
     else 
-	{
-        if (m == 0)
-        {
-            printf("%d is a prime number.", n);
-        }
-        else
-        {
+    {
+	    if (m == 0)
+	    {
+            	printf("%d is a prime number.", n);
+            }
+            else
+	    {
         	printf("%d is not a prime number.", n);
-		}
-            
+	    }
     }
-
-  		
 	return 0;
 }
