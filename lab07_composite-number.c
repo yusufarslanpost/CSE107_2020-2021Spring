@@ -20,7 +20,7 @@ int main()
 				comp = i;
 			}
         	}
-         //buradaki koþul sayesinde, yukarýda mod olarak birden fazla böleni olduðunu saptadýðýmýz sayýlarýn kompozit sayý olduðunu yazdýrýyoruz.
+        	//buradaki koþul sayesinde, yukarýda mod olarak birden fazla böleni olduðunu saptadýðýmýz sayýlarýn kompozit sayý olduðunu yazdýrýyoruz.
 		if(comp > 1) 
 		{
 		       printf ("%d is an composite number.\n",n);
